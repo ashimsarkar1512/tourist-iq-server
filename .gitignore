@@ -1,6 +1,25 @@
+# dependencies
 node_modules
-temp_auto_push.bat
+
+# environment
 .env
+.env.*
+
+# build outputs
+dist
+build
+.next
+
+# logs
+*.log
+
+# vercel
 .vercel
-.gitignore
+
+
+# system / editor
+.DS_Store
+.idea/
+temp_auto_push.bat
 temp_interactive_push.bat
+.gitignore
