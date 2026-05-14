@@ -1,25 +1,68 @@
 # dependencies
+
 node_modules
 
-# environment
+
+
+# environment (IMPORTANT)
+
 .env
-.env.*
+
+.env.local
+
+.env.development.local
+
+.env.test.local
+
+.env.production.local
+
+
 
 # build outputs
+
 dist
+
 build
+
 .next
 
+
+
 # logs
+
 *.log
 
+
+
 # vercel
+
 .vercel
 
 
-# system / editor
+
+# OS files
+
 .DS_Store
+
+Thumbs.db
+
+
+
+# editor
+
+
 .idea/
+
+
+
+# TypeScript
+
+*.tsbuildinfo
+
+branch_structure.json
+
 temp_auto_push.bat
+
 temp_interactive_push.bat
+config.bat
 .gitignore
